@@ -148,6 +148,8 @@ const translation = {
     add: 'dodawać',
     emptyTitle: 'Brak dostępnego narzędzia do przepływu pracy',
     emptyTip: 'Przejdź do "Przepływ pracy -> Opublikuj jako narzędzie"',
+    emptyTipCustom: 'Tworzenie narzędzia niestandardowego',
+    emptyTitleCustom: 'Brak dostępnego narzędzia niestandardowego',
   },
   openInStudio: 'Otwieranie w Studio',
   customToolTip: 'Dowiedz się więcej o niestandardowych narzędziach Dify',
