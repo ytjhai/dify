@@ -32,8 +32,8 @@ const translation = {
     manageInTools: 'Gestisci in Strumenti',
     emptyTitle: 'Nessun strumento di flusso di lavoro disponibile',
     emptyTip: 'Vai a `Flusso di lavoro -> Pubblica come Strumento`',
-    emptyTitleCustom: 'Nessun attrezzo personalizzato disponibile',
     emptyTipCustom: 'Creare uno strumento personalizzato',
+    emptyTitleCustom: 'Nessun attrezzo personalizzato disponibile',
   },
   createTool: {
     title: 'Crea Strumento Personalizzato',
