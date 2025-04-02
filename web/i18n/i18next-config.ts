@@ -4,6 +4,18 @@ import { initReactI18next } from 'react-i18next'
 
 import { LanguagesSupported } from '@/i18n/language'
 
+const requireSilent = (lang: string) => {
+  let res
+  try {
+    res = require(`./${lang}/education`).default
+  }
+  catch {
+    res = require('./en-US/education').default
+  }
+
+  return res
+}
+
 const loadLangResources = (lang: string) => ({
   translation: {
     common: require(`./${lang}/common`).default,
@@ -30,6 +42,8 @@ const loadLangResources = (lang: string) => ({
     runLog: require(`./${lang}/run-log`).default,
     plugin: require(`./${lang}/plugin`).default,
     pluginTags: require(`./${lang}/plugin-tags`).default,
+    time: require(`./${lang}/time`).default,
+    education: requireSilent(lang),
   },
 })
 
